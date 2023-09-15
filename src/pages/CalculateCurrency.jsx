@@ -6,8 +6,6 @@ import { changeAmount, changeCurrencyFrom, changeCurrencyTo } from "../store/cal
 
 
 function CalculateCurrency() {
-
-
     const calculate = useSelector(state => state.calculate)
     const dispatch = useDispatch()
     const navigate = useNavigate()
@@ -32,8 +30,8 @@ function CalculateCurrency() {
         <button onClick={() => navigate(-1)} className="btn btn-sm btn-primary">Go Back</button>
         <section className="container text-center">
             <h1 className="display-1 my-4">Calculate Currencies</h1>
-            <div className="d-flex justify-content-center align-items-center w-100 gap-4 my-5">
-                <div className="w-50 text-start">
+            <div className="d-flex flex-md-row flex-column justify-content-around align-items-center w-100 gap-4 my-5">
+                <div className="w-100 text-start">
                     <h2>Cuantity</h2>
                     <div className="d-flex">
                         <input type="number" className="form-control w-75" onKeyUp={handleChangeAmount} />
@@ -43,7 +41,7 @@ function CalculateCurrency() {
                         </select>
                     </div>
                 </div>
-                <div className="w-50 text-start">
+                <div className="w-100 text-start">
                     <h2>Convert to:</h2>
                     <div className="d-flex">
                         <input type="number" className="form-control w-75" value={conversionCurrencyData.data && conversionCurrencyData.data.result} disabled />
