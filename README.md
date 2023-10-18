@@ -14,7 +14,7 @@ y para el manejo de estados asincronos **Tanstack Query**
 
 ##  💡 Como se penso este proyecto y como funciona
 
-**_<span style="text-decoration:underline">Idea Principal</span> : Un comparador y calculador de divisas _**
+**_<span style="text-decoration:underline">Idea Principal</span> : Un comparador y calculador de divisas_**
 
 Nota: Este proyecto ya lo habia realizado previamente en JavaScript Vanilla, asi que tome ideas y lo adapte a React
 
