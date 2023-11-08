@@ -30,7 +30,7 @@ En la vista del Calculador  de Divisas hay 2 componentes principales: Los recuad
 En la vista del Comparador de divisas hay 2 componentes principales: El recuadro de la divisa a comparar y el boton de comparar. El recuadro de la divisa a comparar admite como máximo 3 caracteres (el simbolo de la moneda). Cuando se aprieta el boton de comparar se realiza una peticion a la API  y se envia por parametro la base de la moneda a convertir. Si existe la base enviada traera las diferentes comparaciones con las monedas que posea la api en la base de datos , si es erronea la base o no existe aparecera un cartel en la aplicacion que dire "La moneda no existe".
 
 El manejo del estado lo realice a traves de Redux , donde cree 2 reducers uno para el comparador y otro para el calculador .
-El reducer del comparador posee una  accion principal: Cambiar el estado/base que se esta comparando
+El reducer del comparador posee una  accion principal: Cambiar el estado/base que se esta comparando.
 El reducer del calculador posee tres acciones principales: Cambiar la moneda de origen , cambiar la moneda de destino y cambiar la cantidad.
 
 Para los estilos utilice SASS y Bootstrap , para asi acelerar la construccion del pagina pero al mismo tiempo realizar las personalizaciones pertinentes para poder dejarle un muy buen acabado a la pagina.
